@@ -1,4 +1,8 @@
+const bcrypt = require("bcryptjs");
+
 const generateMessage = (username,text) =>{
+
+    console.log(username + ": " + text)
     return{
         username,
         text,
